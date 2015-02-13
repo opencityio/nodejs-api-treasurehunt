@@ -1,0 +1,22 @@
+{
+  "name": "Trail",
+  "plural": "",
+  "base": "PersistedModel",
+  "config,public": true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "clues": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
